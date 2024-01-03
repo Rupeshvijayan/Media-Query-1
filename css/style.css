@@ -1,0 +1,52 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+#about_section{
+	height:70vh;
+	margin-top:3rem;
+}
+
+.about_container{
+	width:90%;
+	margin:auto;
+}
+
+/* .about_row{ */
+	/* display:flex; */
+/* } */
+
+/* .about_column{ */
+	/* width:50%; */
+	/* padding:10px; */
+/* } */
+
+.about_content h1{
+	font-family: 'Roboto', sans-serif;
+	font-size:2rem;
+	padding-bottom:15px;
+}
+
+.about_content P{
+	font-family: 'Poppins', sans-serif;
+}	
+	
+.about_image img{
+	width:100%;
+}	
+
+.about_list i{
+	color:#ffc451;
+}
+
+.about_list span{
+	padding-right:10px;
+}	
+
+.about_list p{
+	padding:10px 0;
+}	
+
+	

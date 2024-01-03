@@ -1,0 +1,41 @@
+/*mobile-view and i-pad view*/
+@media(min-width:320px){
+	/*about-section*/
+	.about_row{
+		display:flex;
+		flex-direction:column;
+	}
+	
+	.about_column_right{
+		width:100%;
+		padding:10px;
+		order:1;
+	}
+
+	.about_column_left{
+		width:100%;
+		padding:10px;
+		order:2;
+	}	
+}
+
+/*laptop-view*/
+@media(min-width:960px){
+	/*about-section*/
+	.about_row{
+		display:flex;
+		flex-direction:row;
+	}
+	
+	.about_column_left{
+		width:50%;
+		padding:10px;
+		order:1;
+	}
+
+	.about_column_right{
+		width:50%;
+		padding:10px;
+		order:2;
+	}	
+}	
